@@ -1,14 +1,142 @@
 /*start header styling*/
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+}
 
+li,
+a,
+button {
+    font-family: "montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ac2dcc;
+    text-decoration: none;
+    background-color: rgb(223, 213, 231);
+}
 
-/*start body styling*/
-.body{
-    width: 90%;
-    margin: auto;
-    height: 500px;
-    background-color:#f7d9e1;
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 5%;
+    background-color: rgb(223, 213, 231);
+}
+
+.logo {
+    cursor: pointer;
+    height: 50px;
+    background-color: rgb(223, 213, 231);
+}
+
+.nav_links {
+    list-style: none;
+    background-color: rgb(223, 213, 231);
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 30px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: rgb(68, 26, 71);
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgb(220, 198, 223);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(185, 146, 199, 0.8);
 }
 
 
-/*start footer styling*/
+/*start body styling*/
+
+.body {
+    width: 90%;
+    margin: auto;
+    height: 500px;
+    background-color: rgb(232, 225, 233);
+    
+}
+.body h1{
+    background-color: #fff;
+    color: rgb(121, 115, 115);
+    margin: 30px 0;
+    width: 100%;
+}
+.date{
+    margin-bottom: 60px;
+}
+
+
+
+.footer {
+    background-color: rgb(223, 213, 231);
+    bottom: 0px;
+    width: 100%;
+   
+ 
+}
+
+.main-rooo {
+    display: flex;
+}
+
+.main-rooo .box {
+    flex-basis: 50%;
+    padding: 10px 20px;
+}
+
+.box h2 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.box .con {
+    margin: 20px 0 0 0;
+}
+
+.left .con p {
+    text-align: justify;
+}
+
+.left .con .soc {
+    margin: 20px 0 0 0;
+}
+
+.left .con .soc a {
+    padding: 0 2px;
+}
+
+.left .con .soc a span {
+    height: 40px;
+    width: 40px;
+    background: white;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.left .con .soc a span:hover {
+    background: #FDDCE1;
+}
+
